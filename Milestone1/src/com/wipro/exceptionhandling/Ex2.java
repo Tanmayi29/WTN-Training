@@ -3,15 +3,15 @@ import java.util.*;
 public class Ex2{
 public static void main(String[] args) {
 	int n =args.length;
-	int[] arr = new int[n];
+	int[] a = new int[n];
 	int sum = 0;
 	double avg = 0;
 	try {
 		for (int i = 0; i < n; i++)
-			arr[i] = Integer.parseInt(args[i]);
+			a[i] = Integer.parseInt(args[i]);
 		
 		for (int i = 0; i < n; i++)
-			sum += arr[i];
+			sum += a[i];
 		
 		avg = sum / n;
 		System.out.println("sum: " + sum);
